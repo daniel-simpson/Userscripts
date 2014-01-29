@@ -1,0 +1,10 @@
+div.h7:nth-of-type(odd) div.adn.ads, div.kv:nth-of-type(odd){ background-color: rgba(0,0,255,0.05); }
+    div.kv div.G2 { background-color: transparent !important; }
+
+a[target='_blank'] {
+  //display:none;
+}
+
+div < div < a < img[src*='google'] {
+  display: none;
+}

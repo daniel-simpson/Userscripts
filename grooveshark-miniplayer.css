@@ -1,0 +1,179 @@
+.capital,
+.capital-column,
+.decoupledCapital,
+.external-links,
+.jj_menu_item_share,
+.jj_menu_item_visualizer,
+.menu-item[href="/#!/community"],
+.page-nav-link[href="/#!/community"],
+.song-row-share,
+#np-share,
+.title-crossfade-queue,
+#column2,
+#jh-feedback,
+a[href="/#!/broadcasts"],
+#sidebar.small, .sidebar.small,
+.broadcasts {
+	display: none !important;
+	height: 0px !important;
+	width: 0px !important
+}
+  
+#player-wrapper.queue-medium {
+  width:80%;
+}
+  
+#player-wrapper.queue-small .img-container {
+  display:block;
+  left:initial;
+  right:2px;
+}
+
+.sidebar-open #main, .sidebar-open #header-container, .sidebar-open #stage, .sidebar-open #player-wrapper {
+  right: 0px !important;
+}
+
+.small-home-section,
+#column1,
+#grid-toolbar-container {
+	width: 100% !important
+}
+
+#grid-toolbar-container .sticky .grid-toolbar-inner {
+	width: 950px
+}
+  
+.queue-small #broadcast-menu-btn {
+  display:none !Important;
+    width:0px !important;
+}
+
+.queue-small #queue-list-window{
+  display:none
+  height: 0px;
+}
+
+#player-wrapper.queue-small {
+  height:62px;
+}
+
+#player-wrapper.queue-small #now-playing {
+  left: 6px;
+  right: 6px;
+}
+
+#player-wrapper.queue-small #now-playing #play-controls {
+  left: 0px;
+}
+
+#player-wrapper.queue-small #now-playing .inner {
+  left: 90px;
+  right: 50px;
+}
+
+#player-wrapper.queue-small #now-playing .inner #np-meta-container {
+  right: 33px !important;
+}
+
+#player-wrapper.queue-small #now-playing .inner .np-actions {
+  width: 32px !important;
+}
+
+#player-wrapper.queue-small #now-playing .inner .np-actions #np-comment, #player-wrapper.queue-small #now-playing .inner .np-actions #np-menu {
+  display: none !important;
+}
+
+#player-wrapper.queue-small #now-playing #volume-group, #player-wrapper.queue-small #now-playing #player-options {
+  display:none;
+}
+  
+.queue-small #queue-btns, .queue-closed#queue-btns {
+  display:none;
+}
+
+.queue-small #player, .queue-closed#player{
+  max-width:none;
+  width:100%;
+}
+
+
+#theme-wall, #theme-header {
+  display: none  !important;
+  height: 0px !important;
+  width: 0px !important;
+}
+  
+#page {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12%;
+}
+
+#page-wrapper.sidebar.theme {
+  background: none;
+}
+#profile-button {
+  margin-left: -10px !important;
+}
+#header #header-user-assets #upload-button {
+  display: none;
+  width: 0px;
+  border: none;
+}
+div.copyright, div.love {
+  display: none
+}
+#header-container #header-left {
+  width: 79%;
+}
+#header-container #header-right {
+  width: 21%;
+}
+#header-container #header-left #logo {
+  margin-right: 10px;
+}
+#header-container #header-left #header-search-container {
+  width: 600px;
+  margin: 0;
+}
+
+div#sidebar {
+  width: 385px !important;
+}
+div#sidebar-community {
+  display:none;
+  height: 0px;
+}
+div#sidebar-playlists {
+  height: 97.5%;
+  width:100%;
+}
+div#sidebar-playlists .viewport, div#sidebar-playlists .viewport .overview, div#sidebar-playlists .viewport .overview .grid-viewport {
+  height: 100%;
+  width:100%;
+}
+div#sidebar-playlists-grid, div#sidebar-playlists-grid .grid-viewport {
+  height:auto;
+  overflow-y: hidden;
+}
+
+
+.sidebar-row .playlist-link, .sidebar-row .playlist-link .name {
+  width: 100%;
+}
+/*#page-wrapper #page {
+  margin: 0;
+  width: 90.2%;
+}
+#page-content #page #page-content.home {
+  width: 97%
+}
+#page-content #page #page-content .content.home-section {
+  width: 97%
+}*/
+
+.theme-capital {
+    display:none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
