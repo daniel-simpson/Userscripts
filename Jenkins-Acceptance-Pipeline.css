@@ -1,0 +1,31 @@
+
+td.revision-cell > table {
+  display: none;
+}
+
+tr.build-pipeline > td[id] > table.build-card.rounded {
+  height: 10px !important;
+  width: 120px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+tr.build-pipeline > td[id] {
+  width: 70px;
+}
+
+tr.build-pipeline > td[id] > table.build-card > tbody > tr > td > div {
+  max-width: 100px;
+  overflow-x: hidden;
+  word-wrap:break-word;
+}
+
+tr.build-pipeline > td:not([id]) {
+  max-width: 2px;
+  width: 2px;
+  height: 2px;
+}
+
+tr.build-pipeline > td.next > span.status.next > img {
+  display: none;
+}
