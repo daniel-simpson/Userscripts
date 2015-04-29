@@ -1,0 +1,33 @@
+div.ContentRight.WithRightRail {
+  right: 0;
+}
+
+div#RightRailContainer {
+  display: none;
+  width: 0;
+}
+
+div#c_header > div.c_h.c_htr {
+  display:none;
+}
+
+div#c_base {
+  top: 40px !important;
+}
+
+div.webIMMessagingContainer > .expandCollapseLink {
+  display: none;
+}
+
+div.v-InboxFooterContainer {
+  display: none;
+}
+
+.RPOn .ContentRightInner {
+  bottom: 0em !important;
+}
+
+.NotificationBase.NotificationBar.BottomBar {
+  display: none; 
+  height: 0px;
+}
