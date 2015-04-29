@@ -1,0 +1,126 @@
+
+@media (min-height: 101px) {
+
+#theme {
+  background-color: #393F4F;
+  content: " ";
+}
+
+#capital-column, .capital, .capital-first, a[href*='upgrade'] {
+  display: none;
+}
+
+.capital-column-show #column1 {
+  margin-right: 0px;
+}
+}
+
+@media (max-height: 100px) {
+#main {
+  transform: matrix(1, 0, 0, 1, -240, 0);
+}
+#bottom, #sidebar {
+  visibility: visible !important;
+}
+.open-drawer {
+  transform: matrix(1, 0, 0, 1, -240, 0); 
+}
+
+.playControls {
+  height:100%;
+}
+  
+.playControls > div.playControls__inner {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+  
+.playControls > div.playControls__inner > div.playControls__wrapper {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+    
+.playControls__title{
+  width: 70%;
+}
+.playbackTitle {
+  width: 100% !important;
+}
+      
+.playControls.visible .playControls__inner {
+  -webkit-transform: important;
+  transform: none !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+img#player-bg.player-bg1.active {
+  opacity: 0.3;
+}
+
+div#player-container {
+  height:auto;
+}
+
+.player-btn {
+  font-size: 24px;
+}
+  
+div#now-playing {
+  height: 100%;
+}
+
+div.np-actions, #np-title-actions .np-actions, #np-title-actions:hover .np-actions, #np-title-actions .np-actions.menu-open, #now-playing.favorited .np-actions {
+  top: 5px;
+  /*display: none;*/
+}
+
+#now-playing .np-actions .favorite {
+  background-color: transparent;
+}
+
+#now-playing.favorited .np-actions .favorite {
+  background-color: transparent;
+  color: #FF643B;
+}
+
+div.np-actions #np-playlists, div.np-actions #np-repost, div.np-actions #np-more {
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 530px), only screen and (max-width: 529px) {
+div#player-container {
+  height: 68px;
+}
+ 
+div#play-controls, div#player-options {
+  top: 3px;
+  width: 15%;
+}
+
+div#now-playing-metadata.metadata {
+  text-align: left;
+}
+  
+#now-playing .metadata .now-playing-link {
+  max-width: 60%;
+}
+
+.player-option {
+  width: 33% !important;
+}
+
+div#player-options > #crossfade, div#player-options > #bc-btn {
+  display:none;
+}
+
+}
