@@ -8,9 +8,9 @@
 // ==/UserScript==
 
 var config = {
-  pattern: />[^<>]*\s((\d{1,3}(\.\d*)?)[°°\s]{0,2}F)\s[^<>]*<\//g,
-  debug: 0,
-  rerun: 3,
+  pattern: />[^<>]*\s((\d{1,3}(\.\d*)?)[°°\s]{0,2} ?F)\s[^<>]*<\//g,
+  debug: 1,
+  rerun: 5,
   dp: 3
 };
 
@@ -31,7 +31,7 @@ var runConversion = function() {
     var replaceTextC = generateReplacementString(tempF);
     
     if(config.debug) console.log("Replacing " + replaceTextF + " with " + replaceTextC);
-    document.body.innerHTML = document.body.innerHTML.replace(replaceTextF, replaceTextC);
+    document.body.innerHTML = document.body.innerHTML.replace(new RegExp(replaceTextF, 'g'), replaceTextC);
       
     match = config.pattern.exec(document.body.innerHTML);
   }
