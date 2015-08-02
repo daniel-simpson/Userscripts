@@ -9,8 +9,8 @@
 
 var config = {
   pattern: />[^<>]*\s((\d{1,3}(\.\d*)?)[°°\s]{0,2} ?F)\s[^<>]*<\//g,
-  debug: 1,
-  rerun: 5,
+  debug: 0,
+  rerun: 3,
   dp: 3
 };
 
